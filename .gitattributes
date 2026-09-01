@@ -1,0 +1,4 @@
+# GitHub Linguist Configuration
+package-lock.json linguist-generated=true
+dist/* linguist-vendored=true
+*.json linguist-documentation=true
