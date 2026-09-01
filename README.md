@@ -1,32 +1,51 @@
-# React + TypeScript + Vite
+# 🌤️ WeatherPulse - Aplikasi Cuaca Real-Time Modern
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplikasi prakiraan cuaca real-time yang responsif, modern, dan kaya fitur dibangun menggunakan **React**, **TypeScript**, **Vite**, dan **Tailwind CSS**.
 
-Currently, two official plugins are available:
+![Weather App Preview](https://img.shields.io/badge/React-19-blue?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript) ![Vite](https://img.shields.io/badge/Vite-8-purple?logo=vite) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-cyan?logo=tailwindcss)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Fitur Utama
 
-## React Compiler
+- 🔍 **Pencarian Kota Global**: Pencarian nama kota secara langsung dengan rekomendasi cepat (*Jakarta, Bandung, Surabaya, Tokyo, London*).
+- 📍 **Deteksi Lokasi Terkini**: Fitur geolokasi browser untuk menampilkan cuaca berdasarkan posisi Anda saat ini.
+- 🌡️ **Suhu Real-Time & Toggle Unit**: Tampilan suhu besar dengan kemampuan beralih antara Celsius (°C) dan Fahrenheit (°F).
+- 💧 **Detail Parameter Cuaca**: Kelembaban (humidity), kecepatan & arah angin, tekanan udara, jarak pandang (visibility), serta waktu matahari terbit & terbenam.
+- 📅 **Prakiraan Cuaca (Forecast)**: Tab prakiraan cuaca **5 Hari** dan **Per Jam** lengkap dengan persentase peluang hujan.
+- 🔑 **Multi-API Support & Fallback System**:
+  - Mendukung **OpenWeatherMap API Key** pribadi.
+  - Memiliki **Free Auto-Fallback API (Open-Meteo)** sehingga aplikasi langsung dapat digunakan tanpa konfigurasi API Key.
+- 🎨 **Glassmorphism & Dynamic Themes**: Latar belakang yang berubah warna secara otomatis menyesuaikan kondisi cuaca (*Cerah, Malam, Berawan, Hujan, Badai Petir, Salju*).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Cara Menjalankan Project
 
-## Expanding the Oxlint configuration
+### Prasyarat
+- [Node.js](https://nodejs.org/) (Versi 18 atau lebih baru)
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Langkah Install & Jalankan
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+1. **Clone repository ini:**
+   ```bash
+   git clone https://github.com/adiwira123/Aplikasi-Cuaca-Sederhana-Menggunakan-React.git
+   cd Aplikasi-Cuaca-Sederhana-Menggunakan-React
+   ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+2. **Install dependensi:**
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan server pengembang (Dev Server):**
+   ```bash
+   npm run dev
+   ```
+
+4. **Buka di browser:**
+   Akses `http://localhost:5173` di browser favorit Anda.
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Frontend Core**: React 19, TypeScript
+- **Build Tool**: Vite
+- **Styling & Theme**: Tailwind CSS v4, Glassmorphism UI
+- **Icon Set**: Lucide React
+- **API Integration**: OpenWeatherMap API & Open-Meteo API
