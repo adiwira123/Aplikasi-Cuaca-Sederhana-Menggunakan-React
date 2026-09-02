@@ -6,15 +6,15 @@ Aplikasi prakiraan cuaca real-time yang responsif, modern, dan kaya fitur dibang
 
 ## ✨ Fitur Utama
 
-- 🔍 **Pencarian Kota Global**: Pencarian nama kota secara langsung dengan rekomendasi cepat (*Jakarta, Bandung, Surabaya, Tokyo, London*).
-- 📍 **Deteksi Lokasi Terkini**: Fitur geolokasi browser untuk menampilkan cuaca berdasarkan posisi Anda saat ini.
-- 🌡️ **Suhu Real-Time & Toggle Unit**: Tampilan suhu besar dengan kemampuan beralih antara Celsius (°C) dan Fahrenheit (°F).
-- 💧 **Detail Parameter Cuaca**: Kelembaban (humidity), kecepatan & arah angin, tekanan udara, jarak pandang (visibility), serta waktu matahari terbit & terbenam.
-- 📅 **Prakiraan Cuaca (Forecast)**: Tab prakiraan cuaca **5 Hari** dan **Per Jam** lengkap dengan persentase peluang hujan.
-- 🔑 **Multi-API Support & Fallback System**:
+-  **Pencarian Kota Global**: Pencarian nama kota secara langsung dengan rekomendasi cepat (*Jakarta, Bandung, Surabaya, Tokyo, London*).
+-  **Deteksi Lokasi Terkini**: Fitur geolokasi browser untuk menampilkan cuaca berdasarkan posisi Anda saat ini.
+-  **Suhu Real-Time & Toggle Unit**: Tampilan suhu besar dengan kemampuan beralih antara Celsius (°C) dan Fahrenheit (°F).
+-  **Detail Parameter Cuaca**: Kelembaban (humidity), kecepatan & arah angin, tekanan udara, jarak pandang (visibility), serta waktu matahari terbit & terbenam.
+-  **Prakiraan Cuaca (Forecast)**: Tab prakiraan cuaca **5 Hari** dan **Per Jam** lengkap dengan persentase peluang hujan.
+-  **Multi-API Support & Fallback System**:
   - Mendukung **OpenWeatherMap API Key** pribadi.
   - Memiliki **Free Auto-Fallback API (Open-Meteo)** sehingga aplikasi langsung dapat digunakan tanpa konfigurasi API Key.
-- 🎨 **Glassmorphism & Dynamic Themes**: Latar belakang yang berubah warna secara otomatis menyesuaikan kondisi cuaca (*Cerah, Malam, Berawan, Hujan, Badai Petir, Salju*).
+-  **Glassmorphism & Dynamic Themes**: Latar belakang yang berubah warna secara otomatis menyesuaikan kondisi cuaca (*Cerah, Malam, Berawan, Hujan, Badai Petir, Salju*).
 
 ## 🚀 Cara Menjalankan Project
 
